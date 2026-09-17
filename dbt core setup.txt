@@ -1,0 +1,26 @@
+Steps:
+
+- Install Python 3.12 ( 3.8 to 3.12)
+
+- Verify the Python version in your Command Line
+
+- Create a virtual environment 
+
+		python -m venv venv
+
+- Activate your virtual environment
+
+	Windows CMD: venv\Scripts\activate
+	
+	Mac: source venv\bin\activate
+
+	
+
+- Install dbt packages:
+
+		pip install dbt-core==1.9.4 dbt-snowflake==1.9.4
+
+
+- DBT installation check:
+
+		dbt --version
