@@ -1,0 +1,43 @@
+***Commands used to activate the virtual environment (Windows):
+
+- From the project folder:
+
+	cd venv
+	cd Scripts
+	activate
+
+To return to the project folder:
+
+	cd ..
+	cd ..
+
+
+To clear the terminal: 
+
+	cls
+
+
+
+***Then start the dbt project from project folder:
+
+	dbt init
+
+Then check the connection to the warehouse:
+
+	dbt debug
+
+
+
+***Git commands to track your dbt project:
+
+	git status
+	
+	git add .
+	
+	git commit -m "dbt init"
+
+
+
+*** Virtual Environment activation on Mac:
+
+	source venv/bin/activate
